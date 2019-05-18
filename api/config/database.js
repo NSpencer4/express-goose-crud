@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const chalk = require('chalk');
 
 //require database URL from properties file
-const dbURL = require('./properties').DB;
+const dbURL = 'mongodb://127.0.0.1:27017';
 
 const connected = chalk.bold.cyan;
 const error = chalk.bold.yellow;
